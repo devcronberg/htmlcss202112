@@ -20,3 +20,26 @@ ul li:nth-child(even) {
 p#minP::first-line {
   color: red;
 }
+
+div#d1 span#s1 {
+  /* VINDER */
+  color: green;
+}
+
+/* 2 elementer =  002 */
+
+div span {
+  color: red;
+}
+
+/* 1 klasse, 2 elementer =  012 */
+
+div span.c1 {
+  color: blue;
+}
+
+/* 1 klasse, 1 id, 2 elementer =  112 */
+
+div#d1 span.c1 {
+  color: pink;
+}
