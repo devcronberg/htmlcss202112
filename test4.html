@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="http://webdemo.cronberg.dk/posttome" method="post">
+      <input type="text" value="" id="txtNavn" name="navn" />
+      <input type="checkbox" name="checkbox1" />
+      <input type="radio" name="rado1" />
+      <input type="password" name="pw" />
+      <input type="hidden" value="1" />
+      <select name="lst" multiple>
+        <option>Element 1</option>
+        <option>Element 2</option>
+        <option>Element 3</option>
+      </select>
+      <div>
+        <input type="text" />
+        <input type="number" />
+        <input type="color" />
+        <input type="date" />
+        <input type="datetime" />
+        <input type="email" />
+        <input type="month" />
+        <input type="search" />
+        <input type="tel" />
+        <input type="time" />
+        <input type="url" />
+        <input type="week" />
+        <input type="range" />
+      </div>
+      <input type="submit" value="Send til server" />
+    </form>
+
+    <hr />
+
+    <table>
+      <tr>
+        <td>Vinkel A</td>
+        <td>
+          <input style="text-align: right" type="text" id="t1" />
+        </td>
+      </tr>
+      <tr>
+        <td>Længde</td>
+        <td>
+          <input type="text" id="l1" />
+        </td>
+      </tr>
+      <tr>
+        <td>Resultat</td>
+        <td>
+          <input type="text" id="t3" />
+        </td>
+      </tr>
+
+      <tr>
+        <td></td>
+        <td align="right">
+          <button id="btn">Beregn</button>
+        </td>
+      </tr>
+    </table>
+
+    <script>
+      document.getElementById("btn").onclick = function () {
+        document.getElementById("t3").value = "11";
+      };
+    </script>
+  </body>
+</html>

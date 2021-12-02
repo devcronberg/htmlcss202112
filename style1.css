@@ -1,0 +1,22 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div h1#minK {
+  color: red;
+}
+
+p.r {
+  color: gold;
+}
+
+a:hover {
+  color: gold;
+}
+
+ul li:nth-child(even) {
+  color: red;
+}
+
+p#minP::first-line {
+  color: red;
+}
